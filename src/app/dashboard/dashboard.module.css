@@ -1,0 +1,79 @@
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-image: url(../image/backgrd.jpg);
+}
+
+.midcontainer {
+    width: 100%;
+    height: 100vh;
+    padding: 10px;
+    text-align: center;
+}
+
+.midcontainer>table {
+    width: 100%;
+}
+
+.addemp {
+    width: 100%;
+    height: 12vh;
+    padding: 5px;
+}
+
+.addemp>input {
+    width: 40%;
+    height: 30px;
+    padding: 5px;
+    display: block;
+    font-size: medium;
+    outline: none;
+}
+
+.addemp>button {
+    display: block;
+    width: 15%;
+    height: 30px;
+    margin-top: 5px;
+    font-size: medium;
+}
+
+.buttondel{
+    cursor: pointer;
+    color: rgb(158, 23, 23);
+}
+
+.buttonup{
+    cursor: pointer;
+    color: black;
+}
+
+/* Add Dashboard */
+
+.add {
+    width: 100%;
+}
+
+.addinput {
+    width: 20%;
+    height: 30px;
+    font-size: medium;
+    padding: 5px;
+    outline: none;
+    margin-top: 5px;
+}
+
+.inputsubmit {
+    width: 10%;
+    height: 25px;
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.btn {
+    width: 10%;
+    height: 25px;
+    margin-bottom: 10px;
+}
