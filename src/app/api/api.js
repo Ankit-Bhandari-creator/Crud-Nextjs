@@ -14,6 +14,7 @@ export const signupApi = async (signupData) => {
         })
 
     const resData = await res.json()
+    // console.log(resData)
     return resData;
 }
 
