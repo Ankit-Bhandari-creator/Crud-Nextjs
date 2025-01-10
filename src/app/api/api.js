@@ -43,7 +43,7 @@ export const allEmployee = async (allEmployee) => {
             method: "GET",
             headers: {
                 "Content-type": "application/json",
-                "Autherization": `Bearer ${getStorage().access_token}`
+                "Authorization": `Bearer ${getStorage().access_token}`
             },
             body: JSON.stringify(allEmployee)
         }
@@ -94,7 +94,7 @@ export const singleApi = async (id) => {
             method: "GET",
             headers: {
                 "Content-type": "application/json",
-                "Autherization": `Bearer ${getToken()}`
+                "Authorization": `Bearer ${getToken()}`
             },
         }
     )
@@ -109,7 +109,7 @@ export const updateApi = async (updateData, id) => {
             method: "PUT",
             headers: {
                 "Content-type": "application/json",
-                "Autherization": `Bearer ${getToken()}`
+                "Autho  rization": `Bearer ${getToken()}`
             },
             body: JSON.stringify(updateData)
         }
